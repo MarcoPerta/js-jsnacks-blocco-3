@@ -12,13 +12,13 @@
 let n = parseInt(prompt('inserisci un numero'));
 console.log(n)
 
-i=0
+let i=0
 while(i<n){
   let array = []
 //   console.log(array)
-   while(array.lenght<10){
-    array.push(Math.round(Math.random()*100)+1)
+   while(array.length<10){
+    array.push(Math.round(Math.random()*100)+1);
    }
-   console.log(array)
+   console.log(array);
   i++
 }
