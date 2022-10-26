@@ -11,13 +11,13 @@
 let invited = ['marco','paolo','luca','gianni'];
 console.log(invited);
 
+let ask = prompt('inserisci nome');
+console.log(ask);
+
 let nomeDaTrovare = false;
 
 let i=0;
 while(i<invited.length){
-
-    let ask = parseInt(prompt('inserisci nome'));
-    console.log(ask);
 
     if(invited[i] === ask){
         nomeDaTrovare = true;
